@@ -215,3 +215,74 @@
     float: right;
 
 }
+
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar .logo img {
+        height: 50px; /* Adjust logo size for smaller screens */
+    }
+
+    .dropdown {
+        position: static;
+        width: 100%;
+        text-align: left;
+    }
+
+    .dropdown a {
+        padding: 10px;
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .Bordure1, .Bordure {
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    .monprofil, .monprofil2 {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+
+    .interieur {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .partner {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .service, .service2, .service3 {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .footer input, .footer textarea {
+        width: 100%;
+    }
+}
